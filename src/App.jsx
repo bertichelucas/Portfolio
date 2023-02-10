@@ -7,14 +7,14 @@ import Experience from './components/experience/Experience'
 import Portfolio from './components/portfolio/Portfolio'
 import Footer from './components/footer/Footer'
 import Services from './components/services/Services'
-import video from './assets/bgvideo.mp4'
+import video from './assets/video.mp4'
+
+
 
 const App = () => {
     return (
         <div>
-            <video src={video} autoPlay muted loop className='bgVideo'>
-        
-            </video>
+            <video src={video} autoPlay muted loop  className='bgVideo'></video>
             <Header/>
             <Nav/>
             <About/>
@@ -26,5 +26,7 @@ const App = () => {
         </div>
     )
 }
+
+
 
 export default App

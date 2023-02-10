@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import profile from '../../assets/profile.png'
-import {FaAward} from 'react-icons/fa'
+import {FaAward, FaBriefcase} from 'react-icons/fa'
 import {BiBookBookmark} from 'react-icons/bi'
 
 const About = () => {
@@ -11,9 +11,10 @@ const About = () => {
             <h2>About Me</h2>
 
             <div className="container about__container">
-                <div className="about__me">
+                {<div className="about__me">
                     <img src={profile} alt="About" />
-                </div>
+                </div>}
+                
 
                 <div className="about__content">
                     <div className="about__cards">
@@ -24,17 +25,20 @@ const About = () => {
                         </article>
                         <article className='about__card'>
                             <BiBookBookmark className='about__icon'/>
-                            <h5>Academics</h5>
-                            <small>Nashe</small>
+                            <h5>Learning</h5>
+                            <small>AWS, Pipelines and Django</small>
                         </article>
                         <article className='about__card'>
-                            <BiBookBookmark className='about__icon'/>
-                            <h5>Projects</h5>
-                            <small>proyectitos</small>
+                            <FaBriefcase className='about__icon'/>
+                            <h5>Working on</h5>
+                            <small>Final project Digital House</small>
                         </article>
                     </div>
 
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui delectus itaque nihil nemo molestiae. Hic maxime repellendus aut iste ad. Temporibus dolores dolore perferendis est similique quis reprehenderit natus fugiat?</p>
+                    <p>Born in Buenos Aires, Argentina. Currently studying Digital House's Certified Tech Developer degree and Software Enineering at the University of Buenos Aires.
+                    <hr /><br />
+                    Aside from programming, I have a passion for music, football and video games (especially Age of Empires II)
+                    </p>
 
                     <a href="#contact" className='btn btn-primary'>Contact</a>
                 </div>

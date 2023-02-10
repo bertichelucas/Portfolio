@@ -37,8 +37,8 @@ const Contact = () => {
                     <article className="contact__option">
                         <BsDiscord className='contact__option-icon'/>
                         <h4>Discord</h4>
-                        <h5>bertichelucas@gmail.com</h5>
-                        <a href="mailto:bertichelucas@gmail.com" target="_blank" rel='noreferrer'>Send a Message</a>
+                        <h5>Lucas Bertiche</h5>
+                        <a href="https://discordapp.com/users/231148861303816192" target="_blank" rel='noreferrer'>Send a Message</a>
                     </article>
                     <article className="contact__option">
                         <BsWhatsapp className='contact__option-icon'/>

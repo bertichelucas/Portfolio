@@ -15,10 +15,11 @@ const Header = () => {
                 <Buttons/>
 
                 <HeaderLinks/>
-
+                {/*
                 <div className='me'>
                     <img src={profile} alt="me" />
                 </div>
+                */}
 
                 <a href="#contact" className='scroll__down'>Scroll Down</a>
 
