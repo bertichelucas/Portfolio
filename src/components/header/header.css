@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 35vh;
     overflow: hidden;
 }
 
@@ -8,6 +8,14 @@ header{
     text-align: center;
     height: 100%;
     position: relative;
+}
+
+.header__container h5{
+    font-size: 1.5rem;
+}
+
+.header__container h1{
+    font-size: 5rem;
 }
 
 /************** BUTTONS *******************/
@@ -38,6 +46,7 @@ header{
     background-color: var(--color-primary);
 }
 
+
 /**************** ME **********************/
 
 .me{
@@ -63,12 +72,22 @@ header{
     font-size: 0.9rem;
 }
 
+
+
 /***************** MEDIA QUERY MEDIUM DEVICES**********************/
 
 @media screen and (max-width: 1024px) {
     
     header{
         height: 68vh;
+    }
+
+    .header__container h5{
+        font-size: 1rem;
+    }
+    
+    .header__container h1{
+        font-size: 3rem;
     }
 }
 
@@ -81,5 +100,9 @@ header{
 
     .header__socials, .scroll__down{
         display: none;
+    }
+    
+    .header__container h1{
+        font-size: 2rem;
     }
 }

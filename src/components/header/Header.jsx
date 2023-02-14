@@ -1,8 +1,8 @@
 import React from 'react'
 import './header.css'
 import Buttons from './Buttons'
-import profile from '../../assets/profile.png'
 import HeaderLinks from './HeaderLinks'
+import {FaLongArrowAltRight} from 'react-icons/fa'
 
 const Header = () => {
     return (
@@ -21,7 +21,7 @@ const Header = () => {
                 </div>
                 */}
 
-                <a href="#contact" className='scroll__down'>Scroll Down</a>
+                <a href="#contact" className='scroll__down'>Scroll Down <FaLongArrowAltRight></FaLongArrowAltRight></a>
 
             </div>
 
