@@ -6,8 +6,8 @@ import Contact from './components/contact/Contact'
 import Experience from './components/experience/Experience'
 import Portfolio from './components/portfolio/Portfolio'
 import Footer from './components/footer/Footer'
-import Services from './components/services/Services'
 import video from './assets/video.mp4'
+import Skills from './components/skills/Skills'
 
 
 
@@ -20,7 +20,7 @@ const App = () => {
             <About/>
             <Experience/>
             <Portfolio/>
-            <Services/>
+            <Skills/>
             <Contact/>
             <Footer/>
         </div>

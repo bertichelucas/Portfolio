@@ -1,5 +1,5 @@
 import React from 'react'
-import './services.css'
+import './skills.css'
 import {FaCheck} from 'react-icons/fa'
 
 const data = [
@@ -58,26 +58,30 @@ const data = [
     {
         type: 'other',
         name: 'Postman'
+    },
+    {
+        type: 'theoretical',
+        name: 'Design Patterns'
     }
 ]
 
-const Services = () => {
+const Skills = () => {
     return (
-        <section id='services'>
+        <section id='skills'>
             <h5>What I Offer</h5>
-            <h2>Services</h2>
+            <h2>Skills</h2>
 
-            <div className="container services__container">
-                <article className="service">
-                    <div className="service__head">
+            <div className="container skills__container">
+                <article className="skill">
+                    <div className="skill__head">
                         <h3>Soft Skills</h3>
                     </div>
-                    <ul className='service__list'>
+                    <ul className='skill__list'>
                         {
                             data.filter(item => item.type === 'soft').map(item => {
                                 return(
                                     <li>
-                                        <FaCheck className='service__list-icon'/>
+                                        <FaCheck className='skill__list-icon'/>
                                         <p>{item.name}</p>
                                     </li>
                                 )
@@ -85,16 +89,16 @@ const Services = () => {
                         }
                     </ul>
                 </article>
-                <article className="service">
-                    <div className="service__head">
+                <article className="skill">
+                    <div className="skill__head">
                         <h3>Knowledges</h3>
                     </div>
-                    <ul className='service__list'>
+                    <ul className='skill__list'>
                         {
                             data.filter(item => item.type === 'theoretical').map(item =>{
                                 return(
                                     <li>
-                                        <FaCheck className='service__list-icon'/>
+                                        <FaCheck className='skill__list-icon'/>
                                         <p>{item.name}</p>
                                     </li>
                                 )
@@ -102,16 +106,16 @@ const Services = () => {
                         }
                     </ul>
                 </article>
-                <article className="service">
-                    <div className="service__head">
+                <article className="skill">
+                    <div className="skill__head">
                         <h3>Others</h3>
                     </div>
-                    <ul className='service__list'>
+                    <ul className='skill__list'>
                         {
                             data.filter(item => item.type === 'other').map(item =>{
                                 return(
                                     <li>
-                                        <FaCheck className='service__list-icon'/>
+                                        <FaCheck className='skill__list-icon'/>
                                         <p>{item.name}</p>
                                     </li>
                                 )
@@ -124,4 +128,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Skills
