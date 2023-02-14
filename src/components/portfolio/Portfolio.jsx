@@ -38,13 +38,6 @@ const data = [
         techs: 'Python, Pygame',
         src: drumMachine,
         git: 'https://github.com/bertichelucas/DrumMachine',
-    },
-    {
-        name: '',
-        description: '',
-        techs: '',
-        src: '',
-        git: '',
     }
 ]
 
