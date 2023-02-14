@@ -20,8 +20,8 @@ const About = () => {
                     <div className="about__cards">
                         <article className='about__card'>
                             <FaAward className='about__icon'/>
-                            <h5>Experience</h5>
-                            <small>Ninguna</small>
+                            <h5>Projects</h5>
+                            <small><a href="#portfolio">My projects</a></small>
                         </article>
                         <article className='about__card'>
                             <BiBookBookmark className='about__icon'/>
@@ -37,7 +37,7 @@ const About = () => {
 
                     <p>Born in Buenos Aires, Argentina. Currently studying Digital House's Certified Tech Developer degree and Software Enineering at the University of Buenos Aires.
                     <hr /><br />
-                    Aside from programming, I have a passion for music, football and video games (especially Age of Empires II)
+                    Aside from programming, I have a passion for football, video games and music (I play the guitar and the bass).
                     </p>
 
                     <a href="#contact" className='btn btn-primary'>Contact</a>
