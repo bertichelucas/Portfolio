@@ -12,7 +12,7 @@ This project uses the following tecnologies:
 
 ## Project Image Link
 
-<a src="https://bertichelucas.netlify.app/"><img src="https://github.com/bertichelucas/Portfolio/blob/main/public/projectimage.png" alt="Project's Image"/></a>
+<a src="https://bertichelucas.netlify.app/">Link</a>
 
 ##How to install:
 
