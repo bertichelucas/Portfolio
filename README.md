@@ -10,7 +10,9 @@ This project uses the following tecnologies:
 * CSS
 * React
 
-## Project Image Link
+## Project Image and Link
+
+<img src="https://github.com/bertichelucas/Portfolio/blob/main/public/projectimage.png" alt="Portfolio Image"/>
 
 [Link](https://bertichelucas.netlify.app/)
 
