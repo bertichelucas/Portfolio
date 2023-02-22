@@ -17,7 +17,7 @@ This project uses the following tecnologies:
 [Link](https://bertichelucas.netlify.app/)
 
 
-How to install:
+## How to install:
 
 1. Clone this project.
 2. npm i for installing dependencies.
