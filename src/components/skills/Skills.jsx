@@ -68,7 +68,7 @@ const data = [
 const Skills = () => {
     return (
         <section id='skills'>
-            <h5>What I Offer</h5>
+            <h5>What Skills do i have?</h5>
             <h2>Skills</h2>
 
             <div className="container skills__container">

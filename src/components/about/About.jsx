@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import profile from '../../assets/profile.png'
+import profile from '../../assets/profile2.png'
 import {FaAward, FaBriefcase} from 'react-icons/fa'
 import {BiBookBookmark} from 'react-icons/bi'
 

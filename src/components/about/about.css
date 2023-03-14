@@ -5,7 +5,8 @@
 }
 
 .about__me{
-    width: 100%;
+    justify-self: center;
+    width: 70%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: var(--gradient-primary);

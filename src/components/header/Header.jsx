@@ -15,9 +15,11 @@ const Header = () => {
                 <Buttons/>
 
                 <HeaderLinks/>
+
+                
                 
 
-                <a href="#contact" className='scroll__down'>Scroll Down <FaLongArrowAltRight></FaLongArrowAltRight></a>
+                <a href="#contact" className='scroll__down'>Scroll Down <FaLongArrowAltRight  className='scroll__icon' size={25}></FaLongArrowAltRight></a>
 
             </div>
 

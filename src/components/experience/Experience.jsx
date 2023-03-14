@@ -58,7 +58,7 @@ const data = [
 const Experience = () => {
     return (
         <section id='experience'>
-            <h5>What Skills do i have?</h5>
+            <h5>Experience in web development</h5>
             <h2>My Experience</h2>
 
             <div className="container experience__container">
@@ -72,7 +72,7 @@ const Experience = () => {
                                     <HiCheckCircle className='experience__details-icon'/>
                                     <div>
                                         <h4>{item.name}</h4>
-                                        <small>{item.description}</small>
+                                        {/*<small>{item.description}</small>*/}
                                     </div>
                                 </article>
                             )
@@ -91,7 +91,7 @@ const Experience = () => {
                                     <HiCheckCircle className='experience__details-icon'/>
                                     <div>
                                         <h4>{item.name}</h4>
-                                        <small>{item.description}</small>
+                                        {/*<small>{item.description}</small>*/}
                                     </div>
                                 </article>
                             )
