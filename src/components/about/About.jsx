@@ -31,7 +31,7 @@ const About = () => {
                         <article className='about__card'>
                             <FaBriefcase className='about__icon'/>
                             <h5>Working on</h5>
-                            <small>Final project Digital House</small>
+                            <small><a href='http://g9c3-frontend.s3-website.us-east-2.amazonaws.com/' target='_blank' rel='noreferrer'>Final project Digital House</a></small>
                         </article>
                     </div>
 

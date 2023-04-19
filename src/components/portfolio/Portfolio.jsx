@@ -4,6 +4,7 @@ import dentalClinic from '../../assets/clinica.png'
 import portfolioimg from '../../assets/portfolio.png'
 import todolist from '../../assets/todolist.png'
 import drumMachine from '../../assets/drummachine.png'
+import digitalBooking from '../../assets/digital-booking.jpg'
 
 
 
@@ -11,6 +12,13 @@ import drumMachine from '../../assets/drummachine.png'
 
 
 const data = [
+    {
+        name: 'Digital Booking',
+        description: 'Hotel booking application made with Java, Spring Boot, Hibernate and React.js',
+        techs: 'Java, MVC, Spring Boot, Hibernate, Log4J, JavaScript, React, AWS, Docker',
+        src: digitalBooking,
+        git: 'https://github.com/bertichelucas/Digital_Booking'
+    },
     {
         name: 'Dental Clinic',
         description: 'First Backend Project with Java. Register dentists and clients, make an appointment.',
